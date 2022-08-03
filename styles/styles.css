@@ -1,3 +1,29 @@
-body{
+body {
+
     background-color: bisque;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a {
+    background-color: #cb9984;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    width: 300px;
+}
+
+.paragraph {
+    list-style: none;
+    border: #0a1575 solid 1px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__paragraph-list {
+    display: flex;
+    justify-content: center;
 }
