@@ -9,55 +9,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body class="body">
-<nav>
-    <ul class="nav__paragraph-list">
-        <li class="paragraph"><a class="paragraph__link " href="../index.html">Главная страница</a></li>
-        <li class="paragraph"><a class="paragraph__link active" href="../command_for_terminal/command_for_terminal.html">command_for_terminal</a></li>
-        <li class="paragraph"><a class="paragraph__link" href="../phpstorm/phpstorm.html">phpstorm</a></li>
-        <li class="paragraph"><a class="paragraph__link" href="../js-hint/jsnotes.html">js_notes</a></li>
-        <li class="paragraph"><a class="paragraph__link" href="../localStorage/localStorage.html">localStorage</a></li>
-    </ul>
-</nav>
-<ul>
-    <li>Pwd --> текущая дериктория</li>
-    <li>ls --> все файлы в директории, ls -la --> все файлы в директории + скрытые файлы</li>
-    <li>cd .. --> одна дериктория вверх, cd ../../</li>
-    <li>clear --> очистка</li>
-    <li>ctrl + l --> очистка</li>
-    <li> c:, d:, e:, и тд. --> переход на диск сразу</li>
-    <li>touch --> создание файлов</li>  <!-- (touch command_for_terminal.html)-->
-    <li>mv --> переименование, перемещение</li>
-    <li>mkdir --> создание папки</li>
-    <li>rm --> удаление, rm -rf --> удаление всех вложенных файлов и папок</li>
+<div class="wrap">
+    <nav>
+        <ul class="nav__paragraph-list">
+            <li class="paragraph"><a class="paragraph__link " href="../index.html">Главная страница</a></li>
+            <li class="paragraph"><a class="paragraph__link active"
+                                     href="../command_for_terminal/command_for_terminal.html">command_for_terminal</a>
+            </li>
+            <li class="paragraph"><a class="paragraph__link" href="../phpstorm/phpstorm.html">phpstorm</a></li>
+            <li class="paragraph"><a class="paragraph__link" href="../js-hint/jsnotes.html">js_notes</a></li>
+            <li class="paragraph"><a class="paragraph__link" href="../localStorage/localStorage.html">localStorage</a>
+            </li>
+        </ul>
+    </nav>
+    <ul>
+        <li>Pwd --> текущая дериктория</li>
+        <li>ls --> все файлы в директории, ls -la --> все файлы в директории + скрытые файлы</li>
+        <li>cd .. --> одна дериктория вверх, cd ../../</li>
+        <li>clear --> очистка</li>
+        <li>ctrl + l --> очистка</li>
+        <li> c:, d:, e:, и тд. --> переход на диск сразу</li>
+        <li>touch --> создание файлов</li>  <!-- (touch command_for_terminal.html)-->
+        <li>mv --> переименование, перемещение</li>
+        <li>mkdir --> создание папки</li>
+        <li>rm --> удаление, rm -rf --> удаление всех вложенных файлов и папок</li>
 
-    <li>npm init --> инициализация npm в проекте и создает файл package.json</li>
-    <li>npm -v --> версия npm</li>
-    <li>npm install --> устанавливает все зависимости перечисленные в package.json</li>
-    <li>npm install -d --> инсталяция save dev</li>
-    <li>node -v -->текущая версия ноды</li>
-    <li>npm install [package-name] --> установит пакет локально в папку node_modules</li>
-    <li>npm uninstall [package-name] --> удалит пакет, установленный локально и обновит package.json</li>
-    <li>npm start и npm test --> запустит скрипт start или test, расположенный в package.json</li>
-    <li>npm run [custom-script] --> запустит кастомный скрипт, расположенный в package.json</li>
-    <li>npm outdated --> используется для поиска обновлений, обнаружит совместимые версии программно и выведет список
-        доступных обновлений
-    </li>
-    <li>npm update --> обновит все пакеты до максимально разрешенной версии</li>
-    <li>npm run имя-скрипта --> если создать скрипт с любым другим именем, кроме start или test, он будет так
-        запускаться
-    </li>
-    <li>--save --> зависимость, которая войдет в финальный продукт. Пакет будет установлен локально, в папку
-        node_modules и будет добавлена запись в поле dependencies в package.json.(используется по умолчанию)</li>
-    <li>--save-dev --> зависимость разработки. Пакет будет установлен локально, в папку node_modules, и будет
-        добавлена запись в поле devDependencies в package.json.</li>
-    <li>--global -->  глобальная зависимость, то есть инструмент, который доступен для любого проекта. Пакет
-        будет установлен глобально (в систему).</li>
-<!--    Управление версиями пакетов-->
-    <li>npm outdated - используется для поиска обновлений, обнаружит совместимые версии программно.
-        - используется для поиска обновлений, обнаружит совместимые версии программно.</li>
-    <li>npm update - обновит все пакеты до максимально разрешенной версии.</li>
-    <li>npm update [имя-пакета] - обновит указанный пакет.</li>
-</ul>
-<script src="../js/index.js" type="module"></script>
+        <li>npm init --> инициализация npm в проекте и создает файл package.json</li>
+        <li>npm -v --> версия npm</li>
+        <li>npm install --> устанавливает все зависимости перечисленные в package.json</li>
+        <li>npm install -d --> инсталяция save dev</li>
+        <li>node -v -->текущая версия ноды</li>
+        <li>npm install [package-name] --> установит пакет локально в папку node_modules</li>
+        <li>npm uninstall [package-name] --> удалит пакет, установленный локально и обновит package.json</li>
+        <li>npm start и npm test --> запустит скрипт start или test, расположенный в package.json</li>
+        <li>npm run [custom-script] --> запустит кастомный скрипт, расположенный в package.json</li>
+        <li>npm outdated --> используется для поиска обновлений, обнаружит совместимые версии программно и выведет
+            список
+            доступных обновлений
+        </li>
+        <li>npm update --> обновит все пакеты до максимально разрешенной версии</li>
+        <li>npm run имя-скрипта --> если создать скрипт с любым другим именем, кроме start или test, он будет так
+            запускаться
+        </li>
+        <li>--save --> зависимость, которая войдет в финальный продукт. Пакет будет установлен локально, в папку
+            node_modules и будет добавлена запись в поле dependencies в package.json.(используется по умолчанию)
+        </li>
+        <li>--save-dev --> зависимость разработки. Пакет будет установлен локально, в папку node_modules, и будет
+            добавлена запись в поле devDependencies в package.json.
+        </li>
+        <li>--global --> глобальная зависимость, то есть инструмент, который доступен для любого проекта. Пакет
+            будет установлен глобально (в систему).
+        </li>
+        <!--    Управление версиями пакетов-->
+        <li>npm outdated - используется для поиска обновлений, обнаружит совместимые версии программно.
+            - используется для поиска обновлений, обнаружит совместимые версии программно.
+        </li>
+        <li>npm update - обновит все пакеты до максимально разрешенной версии.</li>
+        <li>npm update [имя-пакета] - обновит указанный пакет.</li>
+    </ul>
+    <script src="../js/index.js" type="module"></script>
+</div>
 </body>
 </html>

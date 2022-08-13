@@ -1,11 +1,12 @@
 import {baseLinks} from "./baseLinks.js";
 
 export const linksMarkup = baseLinks.map(baseForLink => {
-    return`
+    return `
         <li class="${baseForLink.class}">
-        <a class="${baseForLink.classForLink}" href="${baseForLink.href}">${baseForLink.textContent}</a>
+            <a class="${baseForLink.classForLink}" href="${baseForLink.href}">${baseForLink.textContent}</a>
         </li>
-`}).join('');
+`
+}).join('');
 
 const navigationParagraphLIst = document.querySelector('.nav__paragraph-list');
 navigationParagraphLIst.insertAdjacentHTML('beforeend', linksMarkup)
