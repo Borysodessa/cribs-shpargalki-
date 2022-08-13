@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
 <nav>
     <ul class="nav__paragraph-list">
-        <li class="paragraph"><a href="../index.html">На главную</a></li>
-        <li class="paragraph"><a href="../command_for_terminal/command_for_terminal.html">command_for_terminal</a></li>
-        <li class="paragraph"><a href="../phpstorm/phpstorm.html">phpstorm</a></li>
-        <li class="paragraph"><a href="../js-hint/jsnotes.html">js_notes</a></li>
+        <li class="paragraph"><a class="paragraph__link" href="../index/index.html">Главная страница</a></li>
+        <li class="paragraph"><a class="paragraph__link" href="../command_for_terminal/command_for_terminal.html">command_for_terminal</a></li>
+        <li class="paragraph"><a class="paragraph__link" href="../phpstorm/phpstorm.html">phpstorm</a></li>
+        <li class="paragraph"><a class="paragraph__link" href="../js-hint/jsnotes.html">js_notes</a></li>
+        <li class="paragraph"><a class="paragraph__link active" href="../localStorage/localStorage.html">localStorage</a></li>
     </ul>
 </nav>
 <h2 class="localStorage">Локальное хранилище(localStorage)</h2>
@@ -25,5 +26,6 @@
     <li>clear() - полностью очищает все записи в хранилище.</li>
     <li>length - хранит количество записей в хранилище.</li>
 </ul>
+<script src="../js/index.js" type="module"></script>
 </body>
 </html>

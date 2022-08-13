@@ -1,13 +1,20 @@
-body {
 
-    background-color: bisque;
+
+
+.body {
+    background-color: #d4d9c8;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     text-decoration: none;
 }
 
-a {
-    background-color: #cb9984;
+.wrap{
+    height: 100%;
+    width: 1170px;
+}
+
+.paragraph__link {
+    background-color: #dab8ab;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -21,6 +28,7 @@ a {
     border-radius: 3px;
     display: flex;
     justify-content: center;
+
 }
 
 .nav__paragraph-list {
@@ -28,3 +36,6 @@ a {
     justify-content: center;
 }
 
+.active{
+    background-color: #72e0f1;
+}
