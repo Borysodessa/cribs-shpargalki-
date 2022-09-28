@@ -1,0 +1,19 @@
+{
+  "name": "cribs-shpargalki-",
+  "version": "1.0.0",
+  "description": "ibrarlibraries, keyboard shortcuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borysodessa/cribs-shpargalki-.git"
+  },
+  "author": "Boris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Borysodessa/cribs-shpargalki-/issues"
+  },
+  "homepage": "https://github.com/Borysodessa/cribs-shpargalki-#readme"
+}
